@@ -1,0 +1,16 @@
+# Ejercicio 1: Cálculo de caída de voltaje en un componente
+
+**Enunciado:** Diseña un pseudocódigo en lenguaje natural que solicite el valor de la corriente que circula por un componente y el valor de su resistencia, para calcular y mostrar el voltaje resultante.
+
+*Pseudocodigo*
+<!--Pasos-->
+1. Inicio
+2. Solicitar el valor de la corriente que pasa por el componente
+3. Guardar el valor dado en "corriente"
+4. Solicitar el valor de la resistencia del componente
+5. Guardar el valor dado en "resistencia"
+6. Realizar la operacion requerida (corriente*resistencia) y guardar en "voltaje"
+7. Mostrar el valor resultante en "voltaje"
+8. Fin
+
+[Archivo dfd](./Ejercicio1_A.dfd)

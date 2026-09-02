@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+46
+'¿Cuanta corriente circula por el componente?'
+5
+1
+9
+corriente
+4
+1
+53
+'¿Cual es el valor de la resistencia del componente?'
+5
+1
+11
+resistencia
+6
+1
+7
+voltaje
+21
+corriente*resistencia
+4
+1
+32
+'El voltaje es ', voltaje ,' V '
+1
