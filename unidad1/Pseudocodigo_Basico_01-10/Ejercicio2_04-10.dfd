@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+36
+'Introduce la temperatura del motor'
+5
+1
+3
+tem
+7
+0
+1
+9
+tem >=110
+7
+0
+1
+22
+tem >= 80 AND tem <110
+4
+1
+51
+'Temperatura por debajo del parametro (Calentando)'
+13
+4
+1
+42
+'La temperatura esta dentro del parametro'
+13
+13
+4
+1
+100
+'La temperatura del motor supero el limite de temperatura, el motor se apago por sobrecalentamiento'
+13
+1
