@@ -1,0 +1,14 @@
+# Ejercicio 10: Inversor de señal digital (Compuerta NOT)
+
+**Enunciado:** Desarrolla la lógica para un módulo inyector de fallas que reciba una señal digital de control y devuelva la señal invertida para pruebas de laboratorio.
+
+
+1. Inicio
+2. Mensaje de salida "Ingresa una señal digital de control: 1 (Alto), 0 (Bajo).
+3. Leer señal
+4. Mostrar "La señal es" señal
+5. Si el dato es 1 cambiar a 0
+6. Sino el dato es 0 cambiar a 1
+7. Mostrar " La señal invertida es" negacion
+
+[Archivo dfd](./Ejecrcicio10_04-10.dfd)
