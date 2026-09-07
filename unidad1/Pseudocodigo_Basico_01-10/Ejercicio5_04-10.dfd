@@ -1,0 +1,38 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+55
+'Escriba el estado del sensor (Abierto: 1, Cerrado: 0)'
+5
+1
+2
+s1
+4
+1
+56
+'Escriba el estado del sensor 2 (Abierto:1, Cerrado:0 )'
+5
+1
+2
+s2
+7
+0
+1
+13
+s1=0 AND s2=0
+4
+1
+49
+'¡Alerta de seguridad! ventana abierta detectada'
+13
+4
+1
+26
+'Sin aperturas detectadas'
+13
+1

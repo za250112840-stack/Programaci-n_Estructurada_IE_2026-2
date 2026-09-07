@@ -1,0 +1,30 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+33
+'Introduce el voltaje de entrada'
+5
+1
+8
+voltajeE
+7
+0
+1
+33
+voltajeE <=5.0  AND voltajeE>=2.0
+4
+1
+65
+'Voltaje no correspondiente a un estado logico ALTO(HIGH) valido'
+13
+4
+1
+67
+'Voltaje correspondiente a un estado logico TTL ALTO (HIGH) valido'
+13
+1
