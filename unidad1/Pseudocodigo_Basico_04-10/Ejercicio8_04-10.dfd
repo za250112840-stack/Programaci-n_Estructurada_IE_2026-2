@@ -1,0 +1,29 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+37
+'¿Cuantos segundos han transcurrido?'
+5
+1
+8
+segundos
+6
+2
+7
+minutos
+18
+TRUNC(segundos/60)
+3
+seg
+15
+segundos MOD 60
+4
+1
+52
+'Los minutos son ', minutos ,' y ', seg, ' segundos'
+1

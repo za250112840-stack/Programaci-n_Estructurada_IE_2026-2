@@ -1,0 +1,30 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+75
+'¿El nivel de luz es bajo? (si: 1, no: 0), ¿hay movimiento? (si: 1, no: 0)'
+5
+1
+9
+luz , mov
+7
+0
+1
+15
+luz=1 AND mov=1
+4
+1
+18
+'Luz sin encender'
+13
+4
+1
+15
+'Luz ensendida'
+13
+1

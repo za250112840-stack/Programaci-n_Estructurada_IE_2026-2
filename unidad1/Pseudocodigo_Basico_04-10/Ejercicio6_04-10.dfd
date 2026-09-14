@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+48
+'Ingrese el voltaje consumido de el dispositivo'
+5
+1
+7
+voltaje
+4
+1
+48
+'Ingrese la corriente consumida del dispositivo'
+5
+1
+9
+corriente
+6
+1
+8
+potencia
+17
+voltaje*corriente
+4
+1
+33
+'La potencia es ', potencia, ' W'
+1
