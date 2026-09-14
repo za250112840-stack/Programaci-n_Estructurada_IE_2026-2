@@ -2,7 +2,8 @@
 Repo de la clase de programación estructurada de la carrera de ingeniería en electrónica del **TSJ Zapopan**
 
 # TSJ Unidad Académica Zapopan
-![logo del proyecto](imagenes.jpg)
+
+![logo](./Imagenes/images.jpg)
 ---
 
 ## **Portada de Trabajos de Clase**
