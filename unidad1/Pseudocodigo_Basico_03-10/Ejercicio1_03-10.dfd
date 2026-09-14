@@ -1,0 +1,36 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+53
+'Ingresa la velocidas actual y la velocidad objetiva'
+5
+1
+17
+velo_act, velo_ob
+6
+1
+8
+delta_ac
+21
+(velo_ob-velo_act)/10
+9
+1
+19
+velo_act != velo_ob
+6
+1
+8
+velo_act
+17
+velo_act+delta_ac
+4
+1
+22
+'Velocidad ', velo_act
+11
+1
