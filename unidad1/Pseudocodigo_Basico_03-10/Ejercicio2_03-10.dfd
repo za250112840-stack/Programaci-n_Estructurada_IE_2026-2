@@ -1,0 +1,77 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+36
+'Ingresa el setpoin (valor deseado)'
+5
+1
+8
+setpoint
+4
+1
+37
+'Ingresa el porcentaje de tolerancia'
+5
+1
+3
+tol
+6
+3
+11
+tolerancia 
+18
+(setpoint*tol)/100
+6
+lim_in
+19
+setpoint-tolerancia
+6
+lim_su
+19
+setpoint+tolerancia
+4
+1
+27
+'Ingresa la presion actual'
+5
+1
+7
+presion
+9
+1
+32
+lim_in>presion OR presion>lim_su
+7
+0
+1
+14
+presion<lim_in
+4
+1
+19
+'Compresor apagado'
+13
+4
+1
+22
+'Compresor encendido '
+13
+4
+1
+27
+'Ingresa la presion actual'
+5
+1
+7
+presion
+11
+4
+1
+56
+'La presion del compresor esta dentro del valor nominal'
+1
