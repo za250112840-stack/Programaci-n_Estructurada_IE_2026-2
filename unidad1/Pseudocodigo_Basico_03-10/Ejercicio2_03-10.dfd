@@ -42,10 +42,16 @@ setpoint+tolerancia
 1
 7
 presion
+6
+1
+4
+cont
+1
+0
 9
 1
-32
-lim_in>presion OR presion>lim_su
+46
+(lim_in>presion OR presion>lim_su ) AND cont<5
 7
 0
 1
@@ -60,6 +66,16 @@ presion<lim_in
 1
 22
 'Compresor encendido '
+6
+1
+4
+cont
+6
+cont+1
+4
+1
+13
+'cont: ',cont
 13
 4
 1
@@ -70,8 +86,19 @@ presion<lim_in
 7
 presion
 11
+7
+0
+1
+6
+cont=5
 4
 1
 56
 'La presion del compresor esta dentro del valor nominal'
+13
+4
+1
+99
+'¡¡ALERTA!! el compresor a superado 5 arrenques continuos, compresor apagado por desgaste mecanico'
+13
 1

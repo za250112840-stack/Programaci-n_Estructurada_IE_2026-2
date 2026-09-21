@@ -1,0 +1,214 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+38
+'¿El tanque requiere agua? si:1, no:0'
+5
+1
+3
+res
+7
+0
+1
+5
+res=1
+4
+1
+27
+'El tanque no require agua'
+13
+4
+1
+41
+'Ingrese las horas del uso de la bomba 1'
+5
+1
+4
+bom1
+4
+1
+40
+'Ingresa las horas de uso de la bomba 2'
+5
+1
+4
+bom2
+4
+1
+40
+'Ingresa las horas de uso de la bomba 3'
+5
+1
+4
+bom3
+6
+3
+7
+llenado
+1
+1
+5
+horaT
+1
+0
+5
+horaA
+1
+0
+7
+0
+1
+35
+bom1=bom2 OR bom2=bom3 OR bom1=bom3
+7
+0
+1
+23
+bom1<bom2 AND bom1<bom3
+7
+0
+1
+23
+bom3<bom1 AND bom3<bom2
+4
+1
+19
+'Bomba 2 encendida'
+9
+1
+9
+llenado=1
+6
+1
+5
+horaT
+9
+horaT + 1
+4
+1
+49
+'¿Requiere seguir llenando el tanque? si:1, no:0'
+5
+1
+7
+llenado
+11
+6
+1
+5
+horaA
+11
+horaT+ bom2
+4
+1
+57
+'horas actuales de uso de la bomba 2: ',horaA , '  horas'
+13
+4
+1
+19
+'Bomba 3 encendida'
+9
+1
+9
+llenado=1
+6
+1
+5
+horaT
+9
+horaT + 1
+4
+1
+49
+'¿Requiere seguir llenando el tanque? si:1, no:0'
+5
+1
+7
+llenado
+11
+6
+1
+5
+horaA
+11
+horaT+ bom3
+4
+1
+57
+'horas actuales de uso de la bomba 3: ',horaA , '  horas'
+13
+13
+4
+1
+19
+'Bomba 1 encendida'
+9
+1
+9
+llenado=1
+6
+2
+5
+horaT
+8
+horaT+ 1
+6
+horasA
+12
+horaT + bom1
+4
+1
+49
+'¿Requiere seguir llenando el tanque? si:1, no:0'
+5
+1
+7
+llenado
+11
+6
+1
+5
+horaA
+11
+horaT+ bom1
+4
+1
+57
+'horas actuales de uso de la bomba 2: ',horaA , '  horas'
+13
+13
+7
+0
+1
+9
+bom1=bom2
+7
+0
+1
+9
+bom2=bom3
+4
+1
+19
+'Bomba 1 encendida'
+13
+4
+1
+19
+'Bomba 2 encendida'
+13
+13
+4
+1
+20
+'Bomba 1 encendida' 
+13
+13
+13
+1
