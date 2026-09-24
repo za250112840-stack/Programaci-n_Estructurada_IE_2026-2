@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+33
+'Ingresa el valor de salida (mA)'
+5
+1
+2
+Am
+9
+1
+13
+Am=0 OR Am>24
+7
+0
+1
+5
+Am>24
+4
+1
+22
+'Linea rota o abierta'
+13
+4
+1
+29
+'Cortocircuito o sobre-rango'
+13
+4
+1
+33
+'Ingrese el valor de salida (mA)'
+5
+1
+2
+Am
+11
+6
+1
+4
+cont
+1
+0
+9
+1
+27
+(Am<4 OR Am>20)  AND cont<3
+6
+1
+4
+cont
+6
+cont+1
+4
+1
+33
+'Ingrese el valor de salida (Am)'
+5
+1
+2
+Am
+11
+7
+0
+1
+17
+cont>0 AND cont=3
+4
+1
+27
+'Todo dentro del parametro'
+13
+4
+1
+28
+'Cable roto o Cortocircuito'
+13
+1

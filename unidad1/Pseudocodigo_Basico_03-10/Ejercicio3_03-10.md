@@ -12,5 +12,10 @@ Inicio
         Leer estado
         cont<-cont+1
     Fin Mientras que
-    Si cont=5
+    Si cont=5 entonces
+        Escribir "Estado alto (1)"
+    Sino 
+        Escribe "Ruido detectado"
+Fin
          
+[Archivo dfd](./Ejercicio3_03-10.dfd)

@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+6
+estado
+1
+1
+4
+cont
+1
+0
+9
+1
+19
+estado=1 AND cont<5
+4
+1
+56
+'Escribe el estado digital del valor (alto:1 , ruido:0)'
+5
+1
+6
+estado
+6
+1
+4
+cont
+6
+cont+1
+11
+7
+0
+1
+6
+cont=5
+4
+1
+17
+'Ruido detectado'
+13
+4
+1
+24
+'Estado alto (1) valido'
+13
+1
