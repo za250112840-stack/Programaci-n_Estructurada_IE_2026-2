@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 float alt, pes, imc;
-int main(void){
+int main(){
     printf("===Calcula tu IMC (Indice de Masa Corporal)===\n");
     printf("Ingresa tu peso en kg (kilogramos)\n");
     scanf(" %f", &pes);
@@ -9,7 +9,7 @@ int main(void){
     scanf(" %f", &alt);
     imc= pes /(alt*alt);
 
-    printf("Tu indice de masa corporal es: %.2f \n", imc);
+    //printf("Tu indice de masa corporal es: %.2f \n", imc);
     if(imc<24.9 && imc>18.5){
     	printf("Su peso esta dentro del parametro normal\n");
 	}else if(imc<18.5){
