@@ -17,7 +17,7 @@ int main(){
     scanf(" %d", &N);
 
     for(i=1; i<=N; i++){
-        printf("Ingresa el valor de C (I o D), litros, clima y fugas inicial\n");
+        printf("Ingresa el valor de C (I o D), litros, clima (0.0-0.99) y fugas inicial\n");
         scanf(" %c %d %f %d", &C, &V1, &V2, &V3);
 		
 		horas=0;
@@ -25,6 +25,8 @@ int main(){
             V3=(V3/2)-3;
             horas++;
         }
+        
+
 
         if(C=='I'){
             retencion = (V1 * V2)+ 15.5;
@@ -32,7 +34,7 @@ int main(){
             retencion= ((V1 * V2) / 2.0)- 5.0;
         }
 
-        nagua = V1 + (horas * 5)- ((V1 % 5)* 2) - (int)retencion;
+        nagua = V1 + (horas * 5)- ((V1 % 5)* 2) + (int)retencion;
 
         if(horas>4){
             nagua=nagua-6;
@@ -43,9 +45,10 @@ int main(){
         }else{
             estado='R';
         }
+        printf("Numero de tanques: %d, numero de iteracciones: %d, horas: %d, nivel de agua: %d, estado: %c \n", N, i, horas, nagua, estado);
     }
     
-     printf("Numero de tanques: %d, numero de iteracciones: %d, horas: %d, nivel de agua: %d, estado: %c \n", N, i, horas, nagua, estado);
+     
 
     return 0;
 }
